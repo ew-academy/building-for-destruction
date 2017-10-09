@@ -1,0 +1,34 @@
+
+# General configs
+baseurl: ''
+url: ''
+lang: pt_BR
+
+# SEO cofigs
+head:
+  title: Node.js
+  description: Building for destruction
+  author: You
+  author_desc: Sócio Diretor / CTO da Horizon Four, Microsoft MVP, MSDN Tech Advisor, Instrutor, Palestrante e Community Manager das comunidades NetCoders e Nodebr. Palestrante nas maiores conferencias de Javascript e Node.js do Brasil, fundador e organizador da comunidade .NET Coders Ladies, formado em Análise e Desenvolvimento de Sistemas. Também é MCP e Especialista em Web Development, atualmente desenvolvendo e aventurando-se em NodeJS e TypeScript.
+  github: username
+  codepen: username
+  linkedin: username
+  themeColor: purple
+  imagePathMain: /path/to/img
+
+  jsonld:
+    type: person
+    name: You name
+    url: example@example.com.br
+    email: your-email@domain.com
+
+  twitter:
+    author: Your username
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - src

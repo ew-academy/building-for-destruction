@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  {% include head/head.html %}
+</head>
+<body>
+
+  <script src="https://use.fontawesome.com/8945bda076.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Heebo:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+
+  {{ content }}
+
+  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+</body>
+</html>
