@@ -1,0 +1,25 @@
+
+
+<section class="section summary">
+  <div class="summary-container">
+    <h3 class="summary-container-title">O que vamos ter no curso?</h3>
+
+    <div class="summary-container-divider"></div>
+    <div class="summary-container-group">
+
+      {% for course in site.head.course_modules %}
+        <div class="summary-container-group-item">
+          <i class="fa fa-bookmark summary-mark" aria-hidden="true"></i>
+          <h4 class="summary-container-group-item-title">{{ course.name }}</h4>
+
+            <ul class="summary-container-group-item-desc">
+              {% for course_item in course.list %}
+                <li>{{ course_item }}</li>
+              {% endfor %}
+            </ul>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

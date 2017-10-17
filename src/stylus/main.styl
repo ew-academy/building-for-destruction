@@ -2,12 +2,7 @@
 *
   margin 0
   padding 0
-
-html,
-body
-  width 100%
-  height 100%
-  font-size 16px
+  box-sizing border-box
 
 @import '_normalize'
 @import '_variables'
@@ -15,3 +10,26 @@ body
 @import '_intro'
 @import '_contact'
 @import '_reasons'
+@import '_learn'
+@import '_summary'
+
+html,
+body
+  width 100%
+  height 100%
+  font-size 16px
+
+  @media (max-width $metric-large-default)
+    font-size 15px
+  @media (max-width $metric-medium-default)
+    font-size 14px
+  @media (max-width $metric-small-default)
+    font-size 13px
+
+
+// Helpers
+.summary-mark
+  position absolute
+  top -10px
+  color $color-green-default
+  font-size 2.5rem

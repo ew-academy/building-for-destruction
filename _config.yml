@@ -9,7 +9,50 @@ head:
   title: Node.js
   description: Building for destruction
   author: You
-  author_desc: Sócio Diretor / CTO da Horizon Four, Microsoft MVP, MSDN Tech Advisor, Instrutor, Palestrante e Community Manager das comunidades NetCoders e Nodebr. Palestrante nas maiores conferencias de Javascript e Node.js do Brasil, fundador e organizador da comunidade .NET Coders Ladies, formado em Análise e Desenvolvimento de Sistemas. Também é MCP e Especialista em Web Development, atualmente desenvolvendo e aventurando-se em NodeJS e TypeScript.
+  author_desc: Lorem ipsum dos back-end... vlw flw
+  course_desc: # Put a span to highlight :D
+    Com a forte demanda de aplicações Web no mercado, a plataforma Node.js tem se <span>destacado</span>. Não só pela <span>facilidade</span> na construção e implementação de aplicações,
+    mas pela <span>performance</span>, <span>escalabilidade</span> e principalmente, a <span>curta</span> curva de aprendizagem. <br /> Neste curso, você aprenderá todos os principais passos para se criar
+    uma aplicação <span>poderosa</span>, para estar preparado para qualquer desafio! Pensando em todo o ciclo de vida de sua aplicação, desde o pensamento na linguagem de
+    programação (básico) até a publicação e <span>escalabilidade</span> de sua aplicação (avançado).
+  course_cool:
+    - title: Ementa
+      icon: paperclip
+      desc: Ementa diferenciada, abordando todos os passos para criar e manter uma aplicação de forma simples
+    - title: Novidades
+      icon: newspaper-o
+      desc: Novidades e mistérios sobre a plataforma Node.js
+    - title: Ensino
+      icon: graduation-cap
+      desc: Modelo de ensino diferenciado, descontraido e método 100% mão na massa.
+  course_modules:
+      - name: Modulo 1
+        list:
+          - Introdução ao Node.js
+          - Introdução ao Typescript
+          - Criando sua própria CLI
+          - Gerenciando o fluxo assíncrono de operações
+      - name: Modulo 2
+        list:
+          - RestFul APIs com Hapi.js
+          - Plugins
+          - Rotas e Versionamento de APIs
+          - Autenticação e autorizacao
+          - Validação de modelos
+          - Documentação de Serviços
+      - name: Modulo 3
+        list:
+          - Introdução ao NoSql
+          - Introducao ao MongoDb
+          - Validação de modelos com Mongoose
+          - Criando nosso primeiro CRUD
+      - name: Modulo 4
+        list:
+          - Configurando seu ambiente de desenvolvimento
+          - Trabalhando com environments (dev e prod)
+          - Dockerfile e docker compose
+          - Entendendo volumes
+
   github: username
   codepen: username
   linkedin: username

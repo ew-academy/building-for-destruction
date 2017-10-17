@@ -1,5 +1,24 @@
 
 
 <section class="section reasons">
-  <h1>reasons</h1>
+  <div class="reasons-container">
+    <h3 class="reasons-container-title">Por que esse curso?</h3>
+
+    <div class="reasons-container-divider"></div>
+
+    <div class="reasons-container-group">
+
+      {% for course in site.head.course_cool %}
+        <div class="reasons-container-group-item">
+          <i class="fa fa-{{ course.icon }} summary-mark" aria-hidden="true"></i>
+          <h4 class="reasons-container-group-item-title">{{ course.title }}</h4>
+
+          <p class="reasons-container-group-item-desc">
+            {{ course.desc }}
+          </p>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
 </section>

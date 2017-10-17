@@ -14,6 +14,7 @@ class Fullpage {
 
   init () {
     if (!this.instance) {
+      console.log('Fullpage options', this.options)
       $(this.target).fullpage(this.options)
       console.log('[Fullpage.js] Initialized')
     }

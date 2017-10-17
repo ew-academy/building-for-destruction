@@ -1,0 +1,37 @@
+
+.learn
+  background-color $color-green-default
+
+  &-container
+    display flex
+    justify-content center
+    align-items center
+
+    &-desc
+      font-family $font-name-bangers
+      width 90%
+      font-size 2.5rem
+      line-height 130%
+      letter-spacing 1.8px
+      text-align center
+      color $color-white-default
+
+      @media (max-width $metric-xlarge-default)
+        font-size 2rem
+      @media (max-width $metric-large-default)
+        font-size 1.6rem
+
+      > span
+        font-weight 700
+        padding 2px
+        background-color $color-white-default
+        color $color-green-default
+
+  // &::before
+  //   background-color $color-black-default
+  //   content ""
+  //   position absolute
+  //   top 50px
+  //   width 120%
+  //   height 200px
+  //   transform rotate(-4deg)

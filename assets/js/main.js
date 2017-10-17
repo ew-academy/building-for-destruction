@@ -13405,7 +13405,13 @@ var App = function () {
   _createClass(App, [{
     key: 'startFullpageExperience',
     value: function startFullpageExperience() {
-      var fp = new _Fullpage2.default('#fullpage');
+      var fp = new _Fullpage2.default('#fullpage', {
+        showActiveTooltip: true,
+        slidesNavigation: true,
+        slidesNavPosition: 'right',
+        parallax: true,
+        scrollOverflow: false
+      });
       fp.init();
     }
   }, {
@@ -13458,6 +13464,7 @@ var Fullpage = function () {
     key: 'init',
     value: function init() {
       if (!this.instance) {
+        console.log('Fullpage options', this.options);
         (0, _jquery2.default)(this.target).fullpage(this.options);
         console.log('[Fullpage.js] Initialized');
       }

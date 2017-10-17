@@ -1,10 +1,6 @@
 
-.reasons
+.summary
   // background-color $color-white-default
-
-  @media (max-width $metric-xlarge-default)
-    border 1px solid red
-    overflow scroll
 
   &-container
     width 100%
@@ -21,6 +17,7 @@
       font-weight 700
       font-size 4rem
       text-align center
+      // align-self flex-start
 
     &-divider
       width 10%
@@ -40,9 +37,15 @@
         background-color $color-gray-light
         padding 25px 10px 10px 10px
         transition all .1s ease-in-out
+        // border 1px solid $color-gray-default
+        // box-shadow 0px 1px 10px $color-gray-default
 
         @media (max-width $metric-xlarge-default)
           margin-bottom 20px
+
+        // &:hover
+        //   box-shadow 0px 0px 30px 1px $color-gray-default
+        //   transform scale(1.1, 1.1)
 
         &-title
           font-family $font-name-heebo
@@ -53,4 +56,8 @@
 
         &-desc
           padding-top 10px
+          list-style none
           font-size 1.3rem
+
+          > li
+            padding 5px 0px
