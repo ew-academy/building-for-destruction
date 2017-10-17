@@ -56,7 +56,7 @@ head:
   github: username
   codepen: username
   linkedin: username
-  themeColor: purple
+  themeColor: '#444'
   imagePathMain: /path/to/img
 
   jsonld:
